@@ -2,10 +2,11 @@
   "name": "voipchat",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js"
+    "start": "electron src/app.js",
+    "pack": "electron-builder"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/SecretJuJu/VOIPCHAT/issues"
   },
-  "homepage": "https://github.com/SecretJuJu/VOIPCHAT#readme"
+  "homepage": "https://github.com/SecretJuJu/VOIPCHAT#readme",
+  "dependencies": {
+    "electron": "^11.2.3",
+    "express": "^4.17.1"
+  },
+  "build": {
+    "productName": "VOIPCHAT",
+    "appId": "myApp"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.9.1"
+  }
 }
