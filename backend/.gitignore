@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,windows,node,vscode
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,node,vscode
+# Created by https://www.toptal.com/developers/gitignore/api/macos,windows,node,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,node,visualstudiocode
 
 ### macOS ###
 # General
@@ -145,13 +145,16 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-### vscode ###
+### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -179,4 +182,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,windows,node,vscode
+# End of https://www.toptal.com/developers/gitignore/api/macos,windows,node,visualstudiocode
