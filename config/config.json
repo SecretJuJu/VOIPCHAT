@@ -1,0 +1,7 @@
+{
+    "roomConfig" : {
+        "maxPop" : 16,
+        "minRoomLength" : 4,
+        "maxRoomLength" : 16
+    }
+}
